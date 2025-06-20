@@ -280,8 +280,9 @@ body {
 
 .blog-cards {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   flex-wrap: wrap;
+  margin-left: 70px;
 }
 
 .card {
@@ -350,7 +351,6 @@ font-weight: 40;
   color: #333;
 }
 
-/* Section Titles */
 .section-tag {
   color: #7dbb35;
   font-weight: bold;
@@ -358,7 +358,6 @@ font-weight: 40;
   margin: 10px 0;
 }
 
-/* Testimonials */
 .testimonials {
   padding: 40px 20px;
 }
@@ -378,6 +377,13 @@ font-weight: 40;
   width: 300px;
   text-align: left;
 }
+.testimonial-cardss{
+  display: flex;
+
+}
+.testimonial-card u{
+  text-align: end;
+}
 
 .testimonial-footer {
   display: flex;
@@ -396,7 +402,10 @@ font-weight: 40;
 .brands-strip {
   background: #7dbb35;
   color: white;
-  padding: 30px 10px;
+  padding: 20px 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  order: 10;
 }
 .brands {
   display: flex;
@@ -440,4 +449,39 @@ font-weight: 40;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+}
+.color{
+  color: black;
+}
+
+.team-cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background: #f6fdf4;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.image-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  border: 6px double #7dbb35;
+  border-radius: 50%;
+}
+.kk{
+  color: black;
+}
+.u{
+  text-align: end;
 }
